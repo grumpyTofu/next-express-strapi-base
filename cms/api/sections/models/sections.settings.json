@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "sections",
+  "info": {
+    "name": "Sections"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "pages": {
+      "collection": "pages"
+    }
+  }
+}
